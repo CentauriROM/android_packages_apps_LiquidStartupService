@@ -15,9 +15,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name" translatable="false">Gummy Setup Wizard</string>
-    <string name="product_name" translatable="false">TEAM Gummy</string>
-    <string name="setup_welcome" translatable="false">Welcome to Gummy</string>
+    <string name="app_name" translatable="false">Liquid Setup Wizard</string>
+    <string name="product_name" translatable="false">LiquidSmooth</string>
+    <string name="setup_welcome" translatable="false">Welcome to LiquidSmooth</string>
     <string name="account_name" translatable="false">Google</string>
 
     <string name="next">Next</string>
