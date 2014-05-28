@@ -30,15 +30,6 @@ public class UpdateRequiredActivity extends Activity implements View.OnClickList
     private Button mContinueButton;
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.cmaccount_update_required);
-        mContinueButton = (Button) findViewById(R.id.btn_continue);
-        mContinueButton.setOnClickListener(this);
-        CMAccountUtils.hideNotification(this, CMAccount.NOTIFICATION_ID_INCOMPATIBLE_VERSION);
-    }
-
-    @Override
     public void onClick(View view) {
         setResult(Activity.RESULT_OK);
         finish();
